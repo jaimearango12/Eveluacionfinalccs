@@ -10,9 +10,10 @@
 #imagen1,#imagen2{
   box-shadow: 2px 2px 2px black;
   margin: auto;
-  width: 27vw;
-  height: 24vh;
+  width: 320px;
+  height: 280px;
   text-align: center;
+  margin-left: 40px;
 }
 
 #imagen-principal{
@@ -41,6 +42,12 @@
     display: flex;
     flex-direction:column;
   }
+#imagen1,#imagen2{
+  width: 80%;
+  height: 70%;
+  margin-left: none;
+}
+
   footer{
     font-size: 35px;
   }
