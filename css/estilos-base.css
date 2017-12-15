@@ -63,6 +63,7 @@ footer{
   footer{
     display: flex;
     flex-direction: column;
+    font-size: 35px;
   }
   div[class*="columna"]{
     padding-left: 0;
