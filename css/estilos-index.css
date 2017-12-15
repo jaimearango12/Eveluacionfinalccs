@@ -1,0 +1,47 @@
+/*section 1*/
+.uno{
+  background-color: #82c3a6;
+  text-align: center;
+}
+/*section 2*/
+.dos{
+  background-color: #d5c75f;
+}
+#imagen1,#imagen2{
+  box-shadow: 2px 2px 2px black;
+  margin: auto;
+  width: 32vw;
+  height: 30vh;
+  text-align: center;
+}
+
+#imagen-principal{
+  width: 80%;
+  margin: auto;
+}
+.contenedor2{
+  display: flex;
+  flex-direction:row;
+  text-align: center;
+  color: black;
+  padding:50px 0 40px 0;
+}
+/*Translate y Rotate*/
+#imagen1:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+#imagen2:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+
+@media (max-width:600px) {
+  .contenedor2{
+    display: flex;
+    flex-direction:column;
+  }
+  footer{
+    font-size: 35px;
+  }
+}
