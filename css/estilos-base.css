@@ -1,14 +1,14 @@
 html,body{
   margin:0;
   padding:0;
-  background-color: #02010a;
+  background-color: black;
   font-family: 'Dancing Script', cursive;
   color: white;
   text-align: center;
 }
 
 #contenedor{
-  width: 80%;
+  width: 900px;
   margin:auto;
   margin-top: 0;
   border-radius: 25px;
